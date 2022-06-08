@@ -41,6 +41,8 @@ Example:
 ```
 
 
-## License
+## License and credits
 
 This project and Voikko are licensed under GPLv3.
+
+The initial version of the API server was developed as part of the [Oiko project](https://tim.jyu.fi/view/kurssit/tie/proj/2019/oiko/projektin-esittely).
