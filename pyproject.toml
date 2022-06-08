@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "oiko"
+version = "1.0.0"
+description = ""
+authors = [
+    "Henriksson Tuomas <tuomas.henriksson@tuni.fi>",
+    "Landen Tapani <tapani.landen@tuni.fi>",
+    "Porkamaa Tuomas <tuomas.porkamaa@tuni.fi>",
+    "Torkkeli Juho <juho.torkkeli@tuni.fi>",
+    "Vienamo Arttu <arttu.vienamo@tuni.fi>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.1.2"
+gunicorn = "^20.1.0"
+voikko = "^0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
